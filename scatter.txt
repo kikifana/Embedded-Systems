@@ -1,0 +1,18 @@
+ROM 0x0 0x030D40
+{
+ROM 0x0 0x30D40
+{
+*.o ( +RO )
+}
+RAM 0x30D40 0x006ACFC0
+{
+* (manual)
+
+}
+SRAM 0x006ACFC0 0x00E4E1C0
+{
+* (sram)
+* ( +ZI )
+
+}
+}
